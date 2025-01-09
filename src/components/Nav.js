@@ -22,6 +22,11 @@ export default function () {
     setOpenBasic(!openBasic);
   };
 
+  // Close the navbar when a link is clicked
+  const closeNavbar = () => {
+    setOpenBasic(false);
+  };
+
   return (
     <MDBNavbar expand='lg' dark bgColor='dark' fixed='top'>
       <MDBContainer fluid>
@@ -52,30 +57,30 @@ export default function () {
           <MDBNavbarNav className='ms-auto mb-2 mb-lg-0'>
             <MDBNavbarItem>
               <MDBNavbarLink active aria-current='page'>
-                <Link className="navbar-link" to="/">Home</Link>
+                <Link className="navbar-link" to="/" onClick={closeNavbar}>Home</Link>
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
               <MDBNavbarLink>
-                <Link className="navbar-link" to="/about">About Us</Link>
-              </MDBNavbarLink>
-            </MDBNavbarItem>
-
-            <MDBNavbarItem>
-              <MDBNavbarLink>
-                <Link className="navbar-link" to="/clients">Clients</Link>
+                <Link className="navbar-link" to="/about" onClick={closeNavbar}>About Us</Link>
               </MDBNavbarLink>
             </MDBNavbarItem>
 
             <MDBNavbarItem>
               <MDBNavbarLink>
-                <Link className="navbar-link" to="/portfolio">Portfolio</Link>
+                <Link className="navbar-link" to="/clients" onClick={closeNavbar}>Clients</Link>
               </MDBNavbarLink>
             </MDBNavbarItem>
 
             <MDBNavbarItem>
               <MDBNavbarLink>
-                <Link className="navbar-link" to="/contact">Contact Us</Link>
+                <Link className="navbar-link" to="/portfolio" onClick={closeNavbar}>Portfolio</Link>
+              </MDBNavbarLink>
+            </MDBNavbarItem>
+
+            <MDBNavbarItem>
+              <MDBNavbarLink>
+                <Link className="navbar-link" to="/contact" onClick={closeNavbar}>Contact Us</Link>
               </MDBNavbarLink>
             </MDBNavbarItem>
           </MDBNavbarNav>
