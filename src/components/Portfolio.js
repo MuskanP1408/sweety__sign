@@ -1,8 +1,9 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBBtn } from 'mdb-react-ui-kit';
-import image1 from './images/image1.jpeg';  // Replace with your image paths
-import image2 from './images/image2.webp';
-import image3 from './images/image3.jpg';
+import image1 from "./images/event.jpg";  // Replace with your image paths
+import image2 from './images/retail.jpg';
+import image3 from './images/outdoor1.webp';
+import image from './images/image3.jpg'
 import './Portfolio.css';  // Custom CSS
 
 export default function Portfolio() {
@@ -10,7 +11,7 @@ export default function Portfolio() {
     <>
     {/* Background image and text */}
     <div className="bg-image">
-        <img src={image3} className="w-100" alt="Portfolio Background" />
+        <img src={image} className="w-100" alt="Portfolio Background" />
         <div className="mask" style={{ backgroundColor: 'rgba(0, 0, 0, 0.8)' }}>
             <div className="d-flex justify-content-left align-items-center h-100">
                 <p className="text mb-0 our_client">Portfolio</p><br/>
