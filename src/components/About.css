@@ -9,8 +9,11 @@
 }
 
 .mini_content1{
-    margin-top: 9%;
-    margin-left: -16%;
+    margin-top: 12%;
+    margin-left: -10%;
+    font-size: 18px;
+    margin-top: 20%;
+    text-align: left;
 }
 
 .text {
@@ -127,7 +130,7 @@ h1 {
     font-size: 80px;
     margin-bottom: 20px;
     font-weight: bold;
-    animation: marquee 17s linear infinite;
+    animation: marquee 22s linear infinite;
     
 
 }
@@ -154,7 +157,7 @@ h1 {
     font-size: 80px;
     font-weight: bold;
     /* margin-top: -1400px; */
-    animation: marquee2 22s linear infinite;
+    animation: marquee2 28s linear infinite;
     margin-bottom: 20px;
 }
 
@@ -232,4 +235,8 @@ h1 {
 
 
    
+}
+
+.purpose{
+    margin-left: 5%;
 }

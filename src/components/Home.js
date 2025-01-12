@@ -10,6 +10,7 @@ import {
   MDBCardTitle,
   MDBCardText,
   MDBCardImage,
+  MDBIcon,
 } from 'mdb-react-ui-kit';
 import bulb from './images/bulb2.jpg';
 import image from './images/image3.jpg'
@@ -92,7 +93,7 @@ export default function Home() {
                   </h1>
                 </MDBCol>
                 <MDBCol sm="12" md="4" className='sweety_sign'>
-                  <h4>Sweety_Sign is a Comprehensive Marketing Company</h4>
+                  <h4>SWEETy_SIGN ONE STOP BRANDING SOLUTION</h4>
                   <MDBBtn outline color="info" href="#">
                     Company Profile
                   </MDBBtn>
@@ -125,23 +126,34 @@ export default function Home() {
             <p className='heading_text'>Who We Are</p>
             <h1>The Age Of Innovation</h1>
             <div className='para1'> 
-              Creatofox (formerly Shyam Art) has been a leading company providing services in the sector of Exhibition,
-              Event Management, Below-The-Line (BTL) activations, campaign strategies and digital marketing since 2005.
-              We’re a one-stop shop for all your brand development needs, taking your vision from concept to execution.
+            We are a trusted signage company with decades of experience, dedicated to delivering high-quality, 
+            visually captivating solutions that help businesses communicate their identity.
+             From our humble beginnings to becoming an industry leader, we continue to innovate and uphold a 
+             legacy of excellence, driven by the fresh perspectives and cutting-edge technology of the new 
+             generation.
               <br/><br/>
               We’re a one-stop shop for all your brand development needs, taking your vision from concept to execution.
               <p className='heading_text1'>Our Services</p>
 
               <MDBRow className="mt-3 text-center">
-                <MDBCol md="2">
-                  <h6>Exhibitions</h6>
-                </MDBCol>
                 <MDBCol md="3">
-                  <h6>Digital Marketing</h6>
+                  <h6> Custom Signage</h6>
                 </MDBCol>
                 <MDBCol md="4">
-                  <h6>Event Management</h6>
+                  <h6> Outdoor & Indoor Signs</h6>
                 </MDBCol>
+                <MDBCol md="4">
+                  <h6> LED & Digital Signage</h6>
+                </MDBCol>
+
+                <MDBRow className="mt-3 text-center">
+                <MDBCol md="5">
+                  <h6> 3D & Dimensional Signs</h6>
+                </MDBCol>
+                <MDBCol md="4">
+                  <h6>Eco-friendly Solutions</h6>
+                </MDBCol>
+              </MDBRow>
               </MDBRow>
 
               <MDBRow className="mt-4">
@@ -169,11 +181,78 @@ export default function Home() {
             <MDBCol md="12">
               <p className='heading_text'>What We Do</p>
               <div className='para1'> 
-                Elevate Your Brand with Creatofox Communications having expertise in Expo, events, BTL Strategies & Digital Marketing
+              We specialize in designing and creating custom signage solutions, including storefront signs, 
+              LED boards, vinyl branding, and more, to help businesses effectively communicate and stand out.
+               Our diverse range of products includes eye-catching outdoor displays, elegant interior signs,
+                and innovative digital solutions.
               </div>
-              <h2>We don't just manage events, we create them.</h2>
+              <h2 className='para2'> We pride ourselves on being a one-stop shop for all signage
+              needs, offering:</h2>
             </MDBCol>
           </MDBRow>
+{/* ////////////////////////////////////////////////////////////////// */}
+
+          <div className="card-container">
+      <MDBCard className="custom-card1">
+        <MDBCardBody className='card_1'>
+          <MDBIcon icon="sign" size="3x" />
+          <MDBCardTitle> Custom Signage </MDBCardTitle>
+          <MDBCardText>
+          Tailored designs that reflect your unique 
+          brand identity.
+          </MDBCardText>
+        </MDBCardBody>
+      </MDBCard>
+
+      <MDBCard className="custom-card1">
+        <MDBCardBody>
+          <MDBIcon icon="building" size="3x" />
+          <MDBCardTitle>Outdoor & Indoor Signs </MDBCardTitle>
+          <MDBCardText>
+          Durable solutions for both 
+exterior and interior displays, including wayfinding systems 
+and promotiona signage.
+          </MDBCardText>
+        </MDBCardBody>
+      </MDBCard>
+
+      <MDBCard className="custom-card1">
+        <MDBCardBody >
+          <MDBIcon icon="tv" size="3x" />
+          <MDBCardTitle>LED & Digital Signage </MDBCardTitle>
+          <MDBCardText>
+           Cutting-edge solutions that capture
+ attention and engage audiences, with energy-efficient and 
+ customizable options.
+          </MDBCardText>
+        </MDBCardBody>
+      </MDBCard>
+
+      <MDBCard className="custom-card1">
+        <MDBCardBody>
+          <MDBIcon icon="cube" size="3x" />
+          <MDBCardTitle> 3D & Dimensional Signs </MDBCardTitle>
+          <MDBCardText>
+          Stunning, attention-grabbing 
+          designs  that elevate your visual presence.
+          </MDBCardText>
+        </MDBCardBody>
+      </MDBCard>
+
+      <MDBCard className="custom-card1">
+        <MDBCardBody>
+          <MDBIcon icon="leaf" size="3x" />
+          <MDBCardTitle>Eco-friendly Solutions </MDBCardTitle>
+          <MDBCardText>
+           Sustainable materials and 
+processes that minimize environmental impact.We combine 
+creativity, craftsmanship, and advanced technologies to 
+create signage that is not only visually compelling but also 
+functional and long-lasting.
+          </MDBCardText>
+        </MDBCardBody>
+      </MDBCard>
+    </div>
         </MDBContainer>
       </MDBContainer>
     </div>

@@ -100,18 +100,21 @@ export default function Footer() {
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
               <i class="fa-solid fa-house footer_icon"></i>
-                New York, NY 10012, US
+              BRANCHES: AHMEDABAD - DUBAI
+              BL-1,2,& 9, Samudra Complex,Near, Swastik Cross Rd,Behind
+              Jain Derasar,Opp.Girish Cold Drinks,Vasant Vihar,Navrangpura, 
+              Ahmedabad, Gujarat 380009
               </p>
               <p>
               <i class="fa-solid fa-envelope footer_icon"></i>
-                info@example.com
+                sakartech95@gmail.com
               </p>
               <p>
-              <i class="fa-solid fa-phone footer_icon"></i> + 01 234 567 88
+              <i class="fa-solid fa-phone footer_icon"></i> + 85111O7575
               </p>
-              <p>
+              {/* <p>
               <i class="fa-solid fa-print footer_icon"></i> + 01 234 567 89
-              </p>
+              </p> */}
             </MDBCol>
           </MDBRow>
         </MDBContainer>

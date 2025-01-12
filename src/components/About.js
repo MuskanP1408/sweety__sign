@@ -47,7 +47,15 @@ export default function About() {
       <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.8)' }}>
         <div className='d-flex justify-content-left align-items-center h-100'>
           <p className='text mb-0'>About Us</p>
-          <h2 className="mini_content1">The Age Of Innovation</h2>
+          <h2 className="mini_content1"> For decades, we’ve been dedicated to creating high-quality, 
+visually captivating signage that helps businesses of all sizes
+ communicate their identity and message effectively. What 
+started as a small local business has grown into a trusted 
+name in the signage industry, known for delivering innovative 
+and impactful solutions. In the last decade, the company has 
+been led by the new generation, who have brought fresh 
+perspectives, cutting-edge technology, and a commitment to 
+keeping our legacy of excellence alive.</h2>
         </div>
       </div>
     </div>
@@ -57,9 +65,11 @@ export default function About() {
     <p className='heading_text'>Who We Are</p>
     <h1>The Age Of Innovation</h1>
     <div className='para1'> 
-    Creatofox (formerly Shyam Art) has been a leading company providing services in the sector of Exhibition,
-     Event Management, Below-The-Line (BTL) activations, campaign strategies and digital marketing since 2005.
-     We’re a one-stop shop for all your brand development needs, taking your vision from concept to execution.
+    We are a trusted signage company with decades of experience, dedicated to delivering high-quality, 
+      visually captivating solutions that help businesses communicate their identity.
+        From our humble beginnings to becoming an industry leader, we continue to innovate and uphold a 
+        legacy of excellence, driven by the fresh perspectives and cutting-edge technology of the new 
+      generation.
     </div>
 
 
@@ -72,13 +82,13 @@ export default function About() {
           className="me-2 purpose"
           onClick={() => setActiveTab("purpose")}
         >
-          Core Purpose
+          OUR JOURNEY
         </MDBBtn>
         <MDBBtn className='values'
           color={activeTab === "values" ? "info" : "dark"}
           onClick={() => setActiveTab("values")}
         >
-          Core Values
+          WHY CHOOSE US
         </MDBBtn>
       </div>
 
@@ -86,15 +96,24 @@ export default function About() {
         <MDBCardBody>
           {activeTab === "purpose" && (
             <div className="box_text">
-              To boost your Brand value & create your distinct identity, we serve you with
-              innovative ideas, having highly professional & qualitative service with flawless
-              execution.
+              Starting as a small business focused on providing reliable, high-quality signage for local businesses,
+               we grew by embracing emerging technologies and trends. A decade ago, 
+               leadership transitioned to <b>Pushpesh Pandey</b>, whose dynamic vision ushered in a new wave of 
+               creativity and innovation. By adopting digital printing, LED technology, and 3D design, 
+               we expanded our offerings and positioned ourselves as leaders in providing personalized, 
+               sustainable signage solutions. Today, we continue to stay at the forefront of the industry, 
+               meeting the diverse needs of clients across various sectors.
             </div>
           )}
           {activeTab === "values" && (
               <div className="box_text">
               Our core values are innovation, professionalism, and delivering qualitative
-              service with flawless execution.
+              service with flawless execution.Choose us for our decades of experience and expertise in 
+              delivering customized, high-quality signage solutions. We leverage cutting-edge technologies 
+              like digital printing, UV tech, LED lighting, and 3D design to create visually striking and
+               durable signs that reflect your brand’s identity. With a global reach and a commitment to 
+               sustainability, we offer eco-friendly, energy-efficient solutions tailored to meet your specific 
+               needs. Our customer-centric approach ensures a smooth and satisfying experience from start to finish.
             </div>
           )}
         </MDBCardBody>
@@ -144,7 +163,7 @@ export default function About() {
             <MDBContainer className="d-flex justify-content-center align-items-center">
             
              <div className="marquee-text">
-             EVENT MANAGEMENT / RETAIL CHAIN BRANDING / OUTDOOR MEDIA PLANING
+             CUSTOM SIGNAGE / LED & DIGITAL SIGNAGE / OUTDOOR & INDOOR SIGNS / 3D & DIMENSIONAL SIGNS / ECO-FRIENDLY SOLUTION
         </div>
       
     </MDBContainer>
@@ -152,7 +171,7 @@ export default function About() {
     <MDBContainer className="d-flex justify-content-center align-items-center">
             
              <div className="marquee-text2">
-             EVENT MANAGEMENT / RETAIL CHAIN BRANDING / OUTDOOR MEDIA PLANING
+             CUSTOM SIGNAGE / LED & DIGITAL SIGNAGE / OUTDOOR & INDOOR SIGNS / 3D & DIMENSIONAL SIGNS / ECO-FRIENDLY SOLUTION
         </div>
       
     </MDBContainer>

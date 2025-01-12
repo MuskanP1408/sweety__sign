@@ -168,6 +168,10 @@ body {
   h1 {
     font-size:1rem; /* Reduce font size for smaller devices */
   }
+  .para2{
+    font-size: 22px;
+    margin-top: 10px;
+  }
   i{
     font-size: 2.5rem;
     
@@ -268,5 +272,47 @@ h2{
     transform: translateX(0); /* End at its original position */
   }
 }
+
+
+/* Fly-in from left */
+.fly-in-left {
+  transform: translateX(-100%);
+  opacity: 0;
+  animation: flyInLeft 1s forwards;
+}
+
+/* Fly-in from right */
+.fly-in-right {
+  transform: translateX(100%);
+  opacity: 0;
+  animation: flyInRight 1s forwards;
+}
+
+/* Define keyframes for the animations */
+@keyframes flyInLeft {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes flyInRight {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.custom-card1 {
+  border: 4px solid #15eae6; /* You can choose the desired border color */
+  position: relative;
+  border: 4px solid transparent; /* Initially set the border to transparent */
+  padding: 20px;
+  animation: borderAnimation 2s ease-out infinite; 
+  background-color: transparent;
+  margin-top: 5%;
+}
+
+
 
 
