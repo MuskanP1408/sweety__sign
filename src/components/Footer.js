@@ -40,58 +40,58 @@ export default function Footer() {
             <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
               <i class="fa-solid fa-gem footer_icon"></i>
-                Company name
+                Sweety_Sign
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit
-                amet, consectetur adipisicing elit.
+              MANAGED BY SAKAR TEX MECH INDUSTRIES
               </p>
             </MDBCol>
 
             <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>Quick Links</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  Angular
+                  Home
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  React
+                  About Us
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Vue
+                  Clients
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Laravel
+                  Portfolio
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                Contact Us
                 </a>
               </p>
             </MDBCol>
 
             <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>Services</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  Pricing
+                Event Management
+                </a>
+              </p>
+             
+              <p>
+                <a href='#!' className='text-reset'>
+                Retail Chain Branding
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Settings
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Orders
-                </a>
-              </p>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Help
+                Outdoor Media Planing
                 </a>
               </p>
             </MDBCol>

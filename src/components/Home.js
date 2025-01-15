@@ -11,9 +11,13 @@ import {
   MDBCardText,
   MDBCardImage,
   MDBIcon,
+  MDBCarousel, MDBCarouselItem
 } from 'mdb-react-ui-kit';
 import bulb from './images/bulb2.jpg';
-import image from './images/image3.jpg'
+import image from './images/image3.jpg';
+import product1 from './images/product1.png';
+import product2 from './images/product2.png';
+import product3 from './images/product3.png';
 
 // CounterCard Component
 function CounterCard({ title, initialValue, limit }) {
@@ -254,7 +258,47 @@ functional and long-lasting.
       </MDBCard>
     </div>
         </MDBContainer>
+
+
+
+        {/* ///////////////////////////////////////////////// */}
+        <p className='heading_text'>Our Products</p>
+        <h1>Take A look at our Products</h1> <br></br>
+        <MDBCarousel showControls showIndicators interval={3000}>
+  <MDBCarouselItem itemId={1} interval={3000}>
+    
+        <img src={product1} className="d-block products_list" alt="..." />
+    
+      
+  </MDBCarouselItem>
+  <MDBCarouselItem itemId={2} interval={3000}>
+    <img src={product2} className="d-block products_list" alt="..." />
+  </MDBCarouselItem>
+  <MDBCarouselItem itemId={3} interval={3000}>
+    <img src={product3} className="d-block products_list" alt="..." />
+  </MDBCarouselItem>
+</MDBCarousel>
+<br></br><br></br><br></br>
+  <MDBContainer className="d-flex justify-content-center align-items-center">
+             
+              <div className="marquee-text">
+              CUSTOM SIGNAGE / LED & DIGITAL SIGNAGE / OUTDOOR & INDOOR SIGNS / 3D & DIMENSIONAL SIGNS / ECO-FRIENDLY SOLUTION
+         </div>
+       
+     </MDBContainer>
+ 
+     <MDBContainer className="d-flex justify-content-center align-items-center">
+             
+              <div className="marquee-text2">
+              CUSTOM SIGNAGE / LED & DIGITAL SIGNAGE / OUTDOOR & INDOOR SIGNS / 3D & DIMENSIONAL SIGNS / ECO-FRIENDLY SOLUTION
+         </div>
+       
+     </MDBContainer>
+
+    <br></br><br></br><br></br>
       </MDBContainer>
+     
     </div>
+    
   );
 }

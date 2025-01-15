@@ -313,6 +313,40 @@ h2{
   margin-top: 5%;
 }
 
+/* ///////////////////////////////////////// */
+.products_list{
+  width:65%;
+  height: 50%;
+  margin-left: 20%;
+  border: solid 5px #15eae6 ;
+}
+
+/* Style the previous and next carousel controls */
+.carousel-control-prev, .carousel-control-next {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent !important; /* Transparent background */
+  border: 2px solid #15eae6; /* Add border color */
+  padding-bottom: 1%;
+  margin-top: 20%;
+}
+
+
+/* Optional: Hover effect */
+.carousel-control-prev:hover, .carousel-control-next:hover {
+  background-color: transparent; /* Keeps background transparent on hover */
+  border: 2px solid #15eae6; /* Darker border on hover */
+}
+
+.marquee-text{
+  color: #fff;
+}
+
+.marquee-text2{
+  color: #fff;
+}
+
 
 
 

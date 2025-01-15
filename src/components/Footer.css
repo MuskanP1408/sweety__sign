@@ -6,3 +6,9 @@
 i{
     padding-right: 10px;
 }
+
+/* ///////////////////////////////////////////////////// */
+
+.text-reset:hover{
+  color: aqua !important;
+}
