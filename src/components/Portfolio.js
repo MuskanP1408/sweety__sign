@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBBtn } from 'mdb-react-ui-kit';
 import image1 from "./images/event.jpg";  // Replace with your image paths
 import image2 from './images/retail.jpg';
@@ -72,7 +73,7 @@ export default function Portfolio() {
                           competitor analysis, proposal creation, advertisement design, permitting, production, quality control,
                            installation, maintenance, and post-campaign analysis.
                         </MDBCardText>
-                        <MDBBtn color="primary">Read More</MDBBtn>
+                        <MDBBtn color="primary"> <Link to="/outdoorMedia">Read More</Link></MDBBtn>
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>

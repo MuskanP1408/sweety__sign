@@ -1,0 +1,64 @@
+.mini_content2{
+    color: white;
+    margin-top: 15%;
+    margin-left: -42%;
+}
+
+
+.img_con{
+    margin-top: 70px;
+    margin-left: 5%;
+    width: 90%;
+    
+}
+.img1_effect{
+    margin-top: -40px;
+    margin-left: -30px;
+    
+}
+.row2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -15%;
+    margin-left: -6%;
+    width: 99.9%;
+}
+
+.img2_effect{
+    margin-top: 60px;
+    margin-left: -30px;
+}
+
+.img3_effect{
+    margin-top: 80px;
+    margin-left: -30px;
+}
+
+.row_1{
+    margin-top: -15%;
+}
+
+
+@keyframes flyInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  ._image {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  ._image.fly-in {
+    animation: flyInFromLeft 1s forwards;
+  }
+
+ 
+  

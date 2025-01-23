@@ -8,6 +8,7 @@ import Clients from './components/Clients';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from  './components/Footer';
+import OutdoorMedia from './components/OutdoorMedia';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/clients" element={<Clients />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/outdoorMedia" element={<OutdoorMedia />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer/>
