@@ -1,11 +1,12 @@
-import React from 'react';
+
+import React, { useEffect, useState } from "react";
 import { MDBContainer, MDBRow, MDBCol, 
-  MDBBtn, MDBCard, MDBCardBody, MDBCardText,MDBCardTitle
+  MDBBtn, MDBCard, MDBCardBody, MDBCardText,MDBCardTitle,MDBCardImage,
 } from 'mdb-react-ui-kit';
 import './About.css';
-import  { useState } from "react";
-import image from './images/image3.jpg'
-import image2 from './images/chart.png'
+import image from './images/image3.jpg';
+import image2 from './images/chart.png';
+import inova from './images/inova.jpg';
 
 
 
@@ -23,6 +24,9 @@ function CounterCard({ title, initialValue, limit }) {
     }
   }, [count, limit]);
 
+
+ 
+
   return (
     <center>
       <MDBCard className="text-center mb-4 custom-card" style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', color: 'white' }}>
@@ -37,8 +41,37 @@ function CounterCard({ title, initialValue, limit }) {
   );
 }
 
+
+
+
 export default function About() {
   const [activeTab, setActiveTab] = useState("purpose");
+ 
+  const [flyIn, setFlyIn] = useState(false);
+
+   useEffect(() => {
+      const handleScroll = () => {
+        // Check if the page has scrolled enough to show the image
+        const imageElement = document.getElementById('bulb-image');
+        const rect = imageElement.getBoundingClientRect();
+        const isVisible = rect.top < window.innerHeight && rect.bottom >= 0;
+  
+        if (isVisible) {
+          setFlyIn(true);
+        }
+      };
+
+      
+  
+      window.addEventListener('scroll', handleScroll);
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, []);
+
+
+
+
     return (
         <>
         
@@ -128,17 +161,14 @@ keeping our legacy of excellence alive.</h2>
 
     {/* //---------------------// */}
     </MDBCol>
-    <MDBCol md="6">
-    <MDBRow className="d-flex justify-content-center align-items-center">
-                <div className="horizontal-lines d-flex">
-                   <div className="line small"></div>
-                    <div className="line large"></div>
-                    <div className="line small"></div>
-                    <div className="line large"></div>
-                    <div className="line small"></div>
-                </div>
-            </MDBRow> 
-    </MDBCol>
+    <MDBCol md="6" className="img1_effect">
+                <MDBCardImage
+                  id="bulb-image"
+                  src={inova}
+                  className={`bulb_image abt_img ${flyIn ? 'fly-in' : ''}`}
+                  position='bottom'
+                />
+              </MDBCol>
   </MDBRow>
 
     {/* Cards Section */}
