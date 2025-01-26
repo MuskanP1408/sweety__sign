@@ -18,6 +18,7 @@ import image from './images/image3.jpg';
 import product1 from './images/product1.png';
 import product2 from './images/product2.png';
 import product3 from './images/product3.png';
+import S_logo_1 from './images/S_logo_1.png';
 
 // CounterCard Component
 function CounterCard({ title, initialValue, limit }) {
@@ -82,28 +83,45 @@ export default function Home() {
         <img src={image} className="w-100" alt="Sample" />
         <div className="mask" style={{ backgroundColor: 'rgba(0, 0, 0, 0.8)' }}>
           <div className="d-flex justify-content-center align-items-center h-100">
-            <MDBContainer>
-              <MDBRow className='logo_name'>
-                <MDBCol sm="12" md="8">
-                  <h1>
-                    <i
-                      className={bounce ? 'bounce' : ''}
-                      onMouseEnter={handleMouseEnter} // Trigger bounce on hover
-                    >
-                      WELCOME TO
-                    </i>
-                    <br /><h1 className='sweety_text'>
-                    SWEETY_SIGN</h1>
-                  </h1>
-                </MDBCol>
-                <MDBCol sm="12" md="4" className='sweety_sign'>
-                  <h4>SWEETy_SIGN ONE STOP BRANDING SOLUTION</h4>
-                  <MDBBtn outline color="info" href="#">
-                    Company Profile
-                  </MDBBtn>
-                </MDBCol>
-              </MDBRow>
-            </MDBContainer>
+          <MDBContainer>
+  <MDBRow className='logo_name'>
+    {/* Left Column (Logo) */}
+    <MDBCol sm="12" md="8" className="d-flex justify-content-center justify-content-md-start">
+      <h1>
+        <i
+          className={bounce ? 'bounce' : ''}
+          onMouseEnter={handleMouseEnter} // Trigger bounce on hover
+        >
+          WELCOME TO
+        </i>
+        {/* Logo */}
+        <img
+          className='logo_1'
+          src={S_logo_1}
+          alt='Logo'
+          loading='lazy'
+          style={{
+            width: '100%', // Adjusts logo to 100% width for small screens
+            maxWidth: '500px', // Limit to max width for larger screens
+            height: 'auto', // Maintain aspect ratio
+          }}
+        />
+      </h1>
+    </MDBCol>
+
+    {/* Right Column (Text and Button) */}
+    <MDBCol sm="12" md="4" className="text-center text-md-left col_2">
+      <h4>SWEETY_SIGN ONE STOP BRANDING SOLUTION</h4>
+      <p1>MANAGED BY SAKAR TEX MECH INDUSTRIES</p1>
+      
+      {/* Button */}
+      <MDBBtn outline color="info" href="/sweety_sign_catalog.pdf" target="_blank">
+        Company Profile
+      </MDBBtn>
+    </MDBCol>
+  </MDBRow>
+</MDBContainer>
+
           </div>
         </div>
       </div>
@@ -139,24 +157,22 @@ export default function Home() {
               We’re a one-stop shop for all your brand development needs, taking your vision from concept to execution.
               <p className='heading_text1'>Our Services</p>
 
-              <MDBRow className="mt-3 text-center">
+              <MDBRow className="mt-3">
                 <MDBCol md="3">
-                  <h6> Custom Signage</h6>
+                  <h6>Exhibitions</h6>
                 </MDBCol>
                 <MDBCol md="4">
-                  <h6> Outdoor & Indoor Signs</h6>
+                  <h6>Event Management</h6>
                 </MDBCol>
                 <MDBCol md="4">
-                  <h6> LED & Digital Signage</h6>
+                  <h6>Retails Chain Branding</h6>
                 </MDBCol>
 
-                <MDBRow className="mt-3 text-center">
+                <MDBRow className="mt-3">
                 <MDBCol md="5">
-                  <h6> 3D & Dimensional Signs</h6>
+                  <h6>Outdoor Media Planning</h6>
                 </MDBCol>
-                <MDBCol md="4">
-                  <h6>Eco-friendly Solutions</h6>
-                </MDBCol>
+               
               </MDBRow>
               </MDBRow>
 
@@ -190,72 +206,83 @@ export default function Home() {
                Our diverse range of products includes eye-catching outdoor displays, elegant interior signs,
                 and innovative digital solutions.
               </div>
-              <h2 className='para2'> We pride ourselves on being a one-stop shop for all signage
-              needs, offering:</h2>
+              <h2 className='para2'> We pride ourselves on being a one-stop shop for all signage.
+              </h2>
             </MDBCol>
           </MDBRow>
 {/* ////////////////////////////////////////////////////////////////// */}
 
           <div className="card-container">
+            <MDBRow>
+              <MDBCol>
       <MDBCard className="custom-card1">
         <MDBCardBody className='card_1'>
-          <MDBIcon icon="sign" size="3x" />
-          <MDBCardTitle> Custom Signage </MDBCardTitle>
+        <MDBIcon icon="users" size="3x" />
+          <MDBCardTitle>Exhibitions</MDBCardTitle>
           <MDBCardText>
-          Tailored designs that reflect your unique 
-          brand identity.
+          We take your expo vision and turn it into a reality, 
+          from initial concept and design to flawless execution.
+           We have a proven track record of delivering 
+           mega expos that achieve outstanding results.
           </MDBCardText>
+           <MDBBtn outline color="info" href="#">
+                Read More
+                </MDBBtn>
         </MDBCardBody>
       </MDBCard>
+      </MDBCol>
 
+
+      <MDBCol>
       <MDBCard className="custom-card1">
         <MDBCardBody>
-          <MDBIcon icon="building" size="3x" />
-          <MDBCardTitle>Outdoor & Indoor Signs </MDBCardTitle>
-          <MDBCardText>
-          Durable solutions for both 
-exterior and interior displays, including wayfinding systems 
-and promotiona signage.
+        <MDBIcon icon="hands-helping" size="3x"/>
+          <MDBCardTitle>Event Management</MDBCardTitle>
+          <MDBCardText className='event_text'>
+          We plan and execute unforgettable events that leave a lasting impression.
           </MDBCardText>
+          <MDBBtn outline color="info" href="#">
+                Read More
+                </MDBBtn>
         </MDBCardBody>
       </MDBCard>
+      </MDBCol>
+      </MDBRow>
 
+
+      <MDBRow>
+        <MDBCol>
       <MDBCard className="custom-card1">
         <MDBCardBody >
-          <MDBIcon icon="tv" size="3x" />
-          <MDBCardTitle>LED & Digital Signage </MDBCardTitle>
+        <MDBIcon icon="store" size="3x" />
+          <MDBCardTitle>Retails Chain Branding</MDBCardTitle>
           <MDBCardText>
-           Cutting-edge solutions that capture
- attention and engage audiences, with energy-efficient and 
- customizable options.
+          Tailored Solutions for Your Brand. SAGC provides services 
+          related to the creation, production, and customization of 
+          printed materials to enhance a client’s brand image.
           </MDBCardText>
+          <MDBBtn outline color="info" href="#">
+                Read More
+                </MDBBtn>
         </MDBCardBody>
-      </MDBCard>
+      </MDBCard></MDBCol>
 
+
+       <MDBCol>
       <MDBCard className="custom-card1">
         <MDBCardBody>
-          <MDBIcon icon="cube" size="3x" />
-          <MDBCardTitle> 3D & Dimensional Signs </MDBCardTitle>
+        <MDBIcon icon="sign" size="3x" />
+          <MDBCardTitle>Outdoor Media Planning</MDBCardTitle>
           <MDBCardText>
-          Stunning, attention-grabbing 
-          designs  that elevate your visual presence.
+          Creatofox Outdoor is your one-stop shop for outdoor advertising,
+           including billboards, newspaper ads, and cinema/TV/radio commercials.
           </MDBCardText>
+          <MDBBtn outline color="info" href="#">
+                Read More
+                </MDBBtn>
         </MDBCardBody>
-      </MDBCard>
-
-      <MDBCard className="custom-card1">
-        <MDBCardBody>
-          <MDBIcon icon="leaf" size="3x" />
-          <MDBCardTitle>Eco-friendly Solutions </MDBCardTitle>
-          <MDBCardText>
-           Sustainable materials and 
-processes that minimize environmental impact.We combine 
-creativity, craftsmanship, and advanced technologies to 
-create signage that is not only visually compelling but also 
-functional and long-lasting.
-          </MDBCardText>
-        </MDBCardBody>
-      </MDBCard>
+      </MDBCard></MDBCol>
+      </MDBRow>
     </div>
         </MDBContainer>
 

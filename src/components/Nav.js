@@ -12,7 +12,7 @@ import {
   MDBCollapse,
 } from 'mdb-react-ui-kit';
 import './Nav.css';
-import logo from './images/SAKAR_LOGO.png';
+import S_logo_1 from './images/S_logo_1.png';
 
 export default function () {
   const [openBasic, setOpenBasic] = useState(false);
@@ -33,8 +33,8 @@ export default function () {
         {/* Logo Section */}
         <MDBNavbarBrand href='#'>
           <img
-            src={logo}
-            height='45'
+            src={S_logo_1}
+            height='50'
             alt='Logo'
             loading='lazy'
           />
