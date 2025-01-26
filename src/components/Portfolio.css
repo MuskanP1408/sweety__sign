@@ -50,6 +50,12 @@
     font-weight: 500;
 }
 
+.exhibition_card{
+    padding-left: 34%;
+    margin-top: -8%;
+
+}
+
 
 
 
@@ -106,5 +112,56 @@
     padding-left: 5%;
     margin-top: -10%;
 }
+
+
+/* ///////////////////event //////////////////////////////// */
+
+.background{
+    width: 100%;
+    max-height: 500px;
+    height: auto;
+    border-bottom: #13b0b6 solid 2px;
+}
+.event_con{
+    color: white;
+    margin-top: 20%;
+    margin-left: -90%;
+    display: block;
+}
+.event_con_cop{
+    color: white;
+    margin-top: 15%;
+    margin-left: -200%;
+    display: block;
+}
+.our_client{
+    width: 200%;
+}
+.event_card{
+    height: 50%;
+    width: 100%;
+    
+}
+.title1{
+    font-size: 35px;
+    font-weight: 600;
+}
+.back_button{
+    width: 30%;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10%;
+    margin-left: 35%;
+    margin-top: -5%;
+
+}
+
+.zoom-effect {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .zoom-effect:hover {
+    transform: scale(1.1); /* Zoom in effect */
+  }
 
 

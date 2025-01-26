@@ -9,16 +9,23 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from  './components/Footer';
 import OutdoorMedia from './components/OutdoorMedia';
+import Event from './components/Event';
+import ScrollToTop from './components/ScrollToTop'; 
+import Corporate_event from './components/Corporate_event'
+
 
 function App() {
   return (
     <BrowserRouter> {/* Wrap the entire app with BrowserRouter here */}
       <Nav />  {/* Display the Navbar */}
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home/>} /> {/* Define route for home page */}
         <Route path="/about" element={<About />} />
         <Route path="/clients" element={<Clients />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/event" element={<Event/>} />
+        <Route path="/corporate_event" element={<Corporate_event/>} />
         <Route path="/outdoorMedia" element={<OutdoorMedia />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

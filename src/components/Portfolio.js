@@ -3,8 +3,9 @@ import { Link } from 'react-router-dom';
 import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBBtn } from 'mdb-react-ui-kit';
 import image1 from "./images/event.jpg";  // Replace with your image paths
 import image2 from './images/retail.jpg';
-import image3 from './images/outdoor1.webp';
-import image from './images/image3.jpg'
+import image3 from './images/hording.png';
+import image from './images/image3.jpg';
+import exhibition from './images/Exhibitions.jpg';
 import './Portfolio.css';  // Custom CSS
 
 export default function Portfolio() {
@@ -38,7 +39,7 @@ export default function Portfolio() {
                           event plan, venue selection, vendor management, logistics coordination, marketing 
                           strategy, and on-site management.
                         </MDBCardText>
-                        <MDBBtn color="primary">Read More</MDBBtn>
+                        <MDBBtn color="primary"> <Link to="/event">Read More</Link></MDBBtn>
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>
@@ -68,7 +69,7 @@ export default function Portfolio() {
                     <MDBCardBody>
                         <MDBCardTitle className="title">Outdoor Media Planing</MDBCardTitle>
                         <MDBCardText>
-                        Creatofox Outdoor is your one-stop shop for outdoor advertising, including billboards, newspaper ads,
+                        Sweety_Sign Outdoor is your one-stop shop for outdoor advertising, including billboards, newspaper ads,
                          and cinema/TV/radio commercials. Their services include understanding your needs, location research,
                           competitor analysis, proposal creation, advertisement design, permitting, production, quality control,
                            installation, maintenance, and post-campaign analysis.
@@ -78,6 +79,28 @@ export default function Portfolio() {
                 </MDBCard>
             </MDBCol>
         </MDBRow>
+
+
+
+        <MDBRow className="exhibition_card">
+            {/* Card 1 */}
+            <MDBCol md="6" className="mb-4 d-flex justify-content-center">
+                <MDBCard className="custom-card">
+                    <MDBCardImage src={exhibition} alt="Card image 1" position="top" />
+                    <MDBCardBody>
+                        <MDBCardTitle className="title">Exhibitions</MDBCardTitle>
+                        <MDBCardText>
+                         We take your expo vision and turn it into a reality, 
+                         from initial concept and design to flawless execution. 
+                         We have a proven track record of delivering mega expos that 
+                         achieve outstanding results.
+                        </MDBCardText>
+                        <MDBBtn color="primary">Read More</MDBBtn>
+                    </MDBCardBody>
+                </MDBCard>
+            </MDBCol></MDBRow>
+
+
     </MDBContainer>
 
     </>

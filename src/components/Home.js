@@ -103,6 +103,7 @@ export default function Home() {
           style={{
             width: '100%', // Adjusts logo to 100% width for small screens
             maxWidth: '500px', // Limit to max width for larger screens
+            maxHeight:'285px',
             height: 'auto', // Maintain aspect ratio
           }}
         />

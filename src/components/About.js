@@ -7,6 +7,7 @@ import './About.css';
 import image from './images/image3.jpg';
 import image2 from './images/chart.png';
 import inova from './images/inova.jpg';
+import bulb from './images/bulb2.jpg';
 
 
 
@@ -151,7 +152,7 @@ keeping our legacy of excellence alive.</h2>
           )}
         </MDBCardBody>
       </MDBCard>
-      <MDBBtn outline color="info" href="#">
+      <MDBBtn outline color="info" href="/sweety_sign_catalog.pdf" target="_blank">
                           Company Profile
       </MDBBtn>
 
@@ -162,12 +163,24 @@ keeping our legacy of excellence alive.</h2>
     {/* //---------------------// */}
     </MDBCol>
     <MDBCol md="6" className="img1_effect">
-                <MDBCardImage
-                  id="bulb-image"
-                  src={inova}
-                  className={`bulb_image abt_img ${flyIn ? 'fly-in' : ''}`}
-                  position='bottom'
-                />
+    {activeTab === "purpose" && (
+            <MDBCardImage
+            id="bulb-image"
+            src={inova}
+            className={`bulb_image abt_img ${flyIn ? 'fly-in' : ''}`}
+            position='bottom'
+          />
+          )}
+
+{activeTab === "values" && (
+             <MDBCardImage
+                           id="bulb-image"
+                           src={bulb}
+                           className={`bulb_image ${flyIn ? 'fly-in' : ''}`}
+                           position='bottom'
+                         />
+          )}
+               
               </MDBCol>
   </MDBRow>
 

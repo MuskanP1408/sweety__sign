@@ -120,120 +120,6 @@ export default function Clients() {
             </MDBCol>
         </MDBRow>
 
-
-        <MDBRow className="card_row2">
-        <p className="heading_text clients_content">GUJARAT BASED  (Authorised Supplier) 
-        </p>
-            {/* Card 1 */}
-            <MDBCol md="4" className="mb-4 d-flex justify-content-center">
-                <MDBCard className="custom-card">
-                    <MDBCardImage src={vpp} alt="Card image 1" position="top" className="cardimage"/>
-                    <MDBCardBody>
-                        <MDBCardTitle className="title">VIMLACHAL 
-                        PRINT&PACK PVT.LTD</MDBCardTitle>
-                       
-                    </MDBCardBody>
-                </MDBCard>
-            </MDBCol>
-
-            {/* Card 2 */}
-            <MDBCol md="4" className="mb-4 d-flex justify-content-center">
-                <MDBCard className="custom-card">
-                    <MDBCardImage src={frizb} alt="Card image 2" position="top" className="cardimage"/>
-                    <MDBCardBody>
-                        <MDBCardTitle className="title"> FRIZBEE </MDBCardTitle>
-                        
-                    </MDBCardBody>
-                </MDBCard>
-            </MDBCol>
-
-            {/* Card 3 */}
-            <MDBCol md="4" className="mb-4 d-flex justify-content-center">
-                <MDBCard className="custom-card">
-                    <MDBCardImage src={indira} alt="Card image 3" position="top" className="cardimage" />
-                    <MDBCardBody>
-                        <MDBCardTitle className="title">INDIRA IVF </MDBCardTitle>
-                       
-                    </MDBCardBody>
-                </MDBCard>
-            </MDBCol>
-        </MDBRow>
-
-
-        <MDBRow className="card_row2">
-        
-            {/* Card 1 */}
-            <MDBCol md="4" className="mb-4 d-flex justify-content-center">
-                <MDBCard className="custom-card">
-                    <MDBCardImage src={vijay} alt="Card image 1" position="top" className="cardimage"/>
-                    <MDBCardBody>
-                        <MDBCardTitle className="title">VIJAY</MDBCardTitle>
-                       
-                    </MDBCardBody>
-                </MDBCard>
-            </MDBCol>
-
-            {/* Card 2 */}
-            <MDBCol md="4" className="mb-4 d-flex justify-content-center">
-                <MDBCard className="custom-card">
-                    <MDBCardImage src={diamond} alt="Card image 2" position="top" className="cardimage"/>
-                    <MDBCardBody>
-                        <MDBCardTitle className="title">  DIAMOND </MDBCardTitle>
-                        
-                    </MDBCardBody>
-                </MDBCard>
-            </MDBCol>
-
-            {/* Card 3 */}
-            <MDBCol md="4" className="mb-4 d-flex justify-content-center">
-                <MDBCard className="custom-card">
-                    <MDBCardImage src={pcj} alt="Card image 3" position="top" className="cardimage" />
-                    <MDBCardBody>
-                        <MDBCardTitle className="title">  PC JEWELLER </MDBCardTitle>
-                       
-                    </MDBCardBody>
-                </MDBCard>
-            </MDBCol>
-        </MDBRow>
-
-
-        <MDBRow className="card_row2">
-        
-        {/* Card 1 */}
-        <MDBCol md="4" className="mb-4 d-flex justify-content-center">
-            <MDBCard className="custom-card">
-                <MDBCardImage src={akshar} alt="Card image 1" position="top" className="cardimage"/>
-                <MDBCardBody>
-                    <MDBCardTitle className="title">AKSAR TRAVELS</MDBCardTitle>
-                   
-                </MDBCardBody>
-            </MDBCard>
-        </MDBCol>
-
-        {/* Card 2 */}
-        <MDBCol md="4" className="mb-4 d-flex justify-content-center">
-            <MDBCard className="custom-card">
-                <MDBCardImage src={YOUNITED} alt="Card image 2" position="top" className="cardimage"/>
-                <MDBCardBody>
-                    <MDBCardTitle className="title">   YOUNITED </MDBCardTitle>
-                    
-                </MDBCardBody>
-            </MDBCard>
-        </MDBCol>
-
-        {/* Card 3 */}
-        <MDBCol md="4" className="mb-4 d-flex justify-content-center">
-            <MDBCard className="custom-card">
-                <MDBCardImage src={fatboy} alt="Card image 3" position="top" className="cardimage" />
-                <MDBCardBody>
-                    <MDBCardTitle className="title">  FAT BOYS </MDBCardTitle>
-                   
-                </MDBCardBody>
-            </MDBCard>
-        </MDBCol>
-    </MDBRow>
-
-
     {/* ///////////////////////////////////////////// */}
     <MDBRow className="card_row2">
         <p className="heading_text clients_content">PRIVATE CLIENTS (Authorised Vendor)
@@ -349,11 +235,119 @@ export default function Clients() {
 
 
 
+    {/* /////////////////////////////////////////////////////// */}
+
+    <MDBRow className="card_row2">
+        <p className="heading_text clients_content">GUJARAT BASED  (Authorised Supplier) 
+        </p>
+            {/* Card 1 */}
+            <MDBCol md="4" className="mb-4 d-flex justify-content-center">
+                <MDBCard className="custom-card">
+                    <MDBCardImage src={vpp} alt="Card image 1" position="top" className="cardimage"/>
+                    <MDBCardBody>
+                        <MDBCardTitle className="title">VIMLACHAL 
+                        PRINT&PACK PVT.LTD</MDBCardTitle>
+                       
+                    </MDBCardBody>
+                </MDBCard>
+            </MDBCol>
+
+            {/* Card 2 */}
+            <MDBCol md="4" className="mb-4 d-flex justify-content-center">
+                <MDBCard className="custom-card">
+                    <MDBCardImage src={frizb} alt="Card image 2" position="top" className="cardimage"/>
+                    <MDBCardBody>
+                        <MDBCardTitle className="title"> FRIZBEE </MDBCardTitle>
+                        
+                    </MDBCardBody>
+                </MDBCard>
+            </MDBCol>
+
+            {/* Card 3 */}
+            <MDBCol md="4" className="mb-4 d-flex justify-content-center">
+                <MDBCard className="custom-card">
+                    <MDBCardImage src={indira} alt="Card image 3" position="top" className="cardimage" />
+                    <MDBCardBody>
+                        <MDBCardTitle className="title">INDIRA IVF </MDBCardTitle>
+                       
+                    </MDBCardBody>
+                </MDBCard>
+            </MDBCol>
+        </MDBRow>
 
 
+        <MDBRow className="card_row2">
+        
+            {/* Card 1 */}
+            <MDBCol md="4" className="mb-4 d-flex justify-content-center">
+                <MDBCard className="custom-card">
+                    <MDBCardImage src={vijay} alt="Card image 1" position="top" className="cardimage"/>
+                    <MDBCardBody>
+                        <MDBCardTitle className="title">VIJAY</MDBCardTitle>
+                       
+                    </MDBCardBody>
+                </MDBCard>
+            </MDBCol>
+
+            {/* Card 2 */}
+            <MDBCol md="4" className="mb-4 d-flex justify-content-center">
+                <MDBCard className="custom-card">
+                    <MDBCardImage src={diamond} alt="Card image 2" position="top" className="cardimage"/>
+                    <MDBCardBody>
+                        <MDBCardTitle className="title">  DIAMOND </MDBCardTitle>
+                        
+                    </MDBCardBody>
+                </MDBCard>
+            </MDBCol>
+
+            {/* Card 3 */}
+            <MDBCol md="4" className="mb-4 d-flex justify-content-center">
+                <MDBCard className="custom-card">
+                    <MDBCardImage src={pcj} alt="Card image 3" position="top" className="cardimage" />
+                    <MDBCardBody>
+                        <MDBCardTitle className="title">  PC JEWELLER </MDBCardTitle>
+                       
+                    </MDBCardBody>
+                </MDBCard>
+            </MDBCol>
+        </MDBRow>
 
 
+        <MDBRow className="card_row2">
+        
+        {/* Card 1 */}
+        <MDBCol md="4" className="mb-4 d-flex justify-content-center">
+            <MDBCard className="custom-card">
+                <MDBCardImage src={akshar} alt="Card image 1" position="top" className="cardimage"/>
+                <MDBCardBody>
+                    <MDBCardTitle className="title">AKSAR TRAVELS</MDBCardTitle>
+                   
+                </MDBCardBody>
+            </MDBCard>
+        </MDBCol>
 
+        {/* Card 2 */}
+        <MDBCol md="4" className="mb-4 d-flex justify-content-center">
+            <MDBCard className="custom-card">
+                <MDBCardImage src={YOUNITED} alt="Card image 2" position="top" className="cardimage"/>
+                <MDBCardBody>
+                    <MDBCardTitle className="title">   YOUNITED </MDBCardTitle>
+                    
+                </MDBCardBody>
+            </MDBCard>
+        </MDBCol>
+
+        {/* Card 3 */}
+        <MDBCol md="4" className="mb-4 d-flex justify-content-center">
+            <MDBCard className="custom-card">
+                <MDBCardImage src={fatboy} alt="Card image 3" position="top" className="cardimage" />
+                <MDBCardBody>
+                    <MDBCardTitle className="title">  FAT BOYS </MDBCardTitle>
+                   
+                </MDBCardBody>
+            </MDBCard>
+        </MDBCol>
+    </MDBRow>
 
 
         

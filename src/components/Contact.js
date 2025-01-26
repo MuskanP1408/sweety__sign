@@ -133,9 +133,10 @@ export default function Contact() {
                 <option value="" disabled>
                   Select a Service
                 </option>
-                <option value="Social Media Marketing">Social Media Marketing</option>
-                <option value="Web Development">Digital Marketing</option>
-                <option value="SEO Services">Event Management</option>
+                <option value="Exhibitions">Exhibitions</option>
+                <option value="Branding">Retails Chain Branding</option>
+                <option value="Event">Event Management</option>
+                <option value="Outdoor Media">Outdoor Media Planning</option>
               </select>
               {errors.service && <small className="text-danger">Please select a service</small>}
 
