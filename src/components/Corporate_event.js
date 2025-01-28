@@ -5,7 +5,12 @@ import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardImage, MDBCardTitle, MDBC
 
  } from 'mdb-react-ui-kit';
 
-import background from './images/back.jpg'
+import background from './images/back.jpg';
+import dealer from './images/dealer_meet.jpg';
+import product from './images/product_launch.jpg';
+import vision from './images/vision.jpg';
+import annual from './images/company_anuual.jpg'
+
 
 import './Portfolio.css';  
 
@@ -25,33 +30,46 @@ export default function Corporate_event() {
         </div>
     </div>
 
-    <MDBContainer className=" bg-black" fluid>
-        <MDBRow>
-            {/* Card 1 */}
-            <MDBCol md="6" className="mb-4 d-flex justify-content-center">
-                <MDBCard className="custom-card event_card">
-                    <MDBCardBody>
-                        <MDBCardTitle className="title1">  <MDBIcon fas icon="briefcase" size="2x" />
-                        Corporate Event Management</MDBCardTitle><br/>
-                        <MDBBtn color="primary">Read More</MDBBtn>
-                    </MDBCardBody>
-                </MDBCard>
-            </MDBCol>
-
-            {/* Card 2 */}
-            <MDBCol md="6" className="mb-4 d-flex justify-content-center">
-                <MDBCard className="custom-card event_card">
-                    <MDBCardBody>
-                        <MDBCardTitle className="title1"> <MDBIcon fas icon="users" size="2x" />
-                            Social Event Management</MDBCardTitle><br/><br/>
-                        <MDBBtn color="primary">Read More</MDBBtn>
-                    </MDBCardBody>
-                </MDBCard>
-            </MDBCol>
-
-        </MDBRow>  
-           <MDBBtn outline color="info" className="back_button"> <Link to="/portfolio">
-                  Back To Portfolio</Link>
+   <MDBContainer className="bg-black" fluid>
+           <MDBRow className="card_row">
+               {/* Image 1 */}
+               <MDBCol md="4" className="mb-4 d-flex justify-content-center">
+                   <div className="image-container">
+                       <img src={dealer} alt="Dealer Meet" className="image1"/>
+                       <p className="image-title">Dealer Meet</p>
+                   </div>
+               </MDBCol>
+   
+               {/* Image 2 */}
+               <MDBCol md="4" className="mb-4 d-flex justify-content-center">
+                   <div className="image-container">
+                       <img src={product} alt="Product Launch Event" className="image1"/>
+                       <p className="image-title">Product Launch Event</p>
+                   </div>
+               </MDBCol>
+   
+               {/* Image 3 */}
+               <MDBCol md="4" className="mb-4 d-flex justify-content-center">
+                   <div className="image-container">
+                       <img src={vision} alt="Vision Launch Event" className="image1"/>
+                       <p className="image-title">Vision Launch Event</p>
+                   </div>
+               </MDBCol>
+           </MDBRow>
+   
+           {/* Second Row with Single Image */}
+           <MDBRow className="card_row">
+               <MDBCol md="12" className="mb-4 d-flex justify-content-center">
+                   <div className="image-container">
+                       <img src={annual} alt="Company Annual Event" className="image1"/>
+                       <p className="image-title">Company Annual Event</p>
+                   </div>
+               </MDBCol>
+           </MDBRow>
+        
+        
+           <MDBBtn outline color="info" className="back_button event_page"> <Link to="/event">
+                  Back To Event Page</Link>
                 </MDBBtn>
     </MDBContainer>
     </>

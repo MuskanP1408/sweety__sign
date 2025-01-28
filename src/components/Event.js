@@ -48,7 +48,7 @@ export default function Event() {
                     <MDBCardBody>
                         <MDBCardTitle className="title1"> <MDBIcon fas icon="users" size="2x" />
                             Social Event Management</MDBCardTitle><br/><br/>
-                        <MDBBtn color="primary">Read More</MDBBtn>
+                        <MDBBtn color="primary"><Link to="/social_event">Read More</Link></MDBBtn>
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>

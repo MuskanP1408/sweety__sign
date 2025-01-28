@@ -11,7 +11,11 @@ import Footer from  './components/Footer';
 import OutdoorMedia from './components/OutdoorMedia';
 import Event from './components/Event';
 import ScrollToTop from './components/ScrollToTop'; 
-import Corporate_event from './components/Corporate_event'
+import Corporate_event from './components/Corporate_event';
+import Social_event from './components/Social_event';
+import Retail_chain from './components/Retail_chain';
+import Indoor from './components/Indoor';
+import Outdoor from './components/Outdoor';
 
 
 function App() {
@@ -24,9 +28,14 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/clients" element={<Clients />} />
         <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/outdoor_media" element={<OutdoorMedia/>} />
         <Route path="/event" element={<Event/>} />
         <Route path="/corporate_event" element={<Corporate_event/>} />
-        <Route path="/outdoorMedia" element={<OutdoorMedia />} />
+        <Route path="/social_event" element={<Social_event/>} />
+        <Route path="/social_event" element={<Social_event/>} />
+        <Route path="/retail_chain" element={<Retail_chain />} />
+        <Route path='/indoor' element={<Indoor/>} />
+        <Route path='/outdoor' element={<Outdoor/>}/>
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer/>

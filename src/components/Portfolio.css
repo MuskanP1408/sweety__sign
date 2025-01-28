@@ -112,6 +112,11 @@
     padding-left: 5%;
     margin-top: -10%;
 }
+.mini_content2{
+    margin-right: 45%;
+
+    width: 250%;
+}
 
 
 /* ///////////////////event //////////////////////////////// */
@@ -164,4 +169,34 @@
     transform: scale(1.1); /* Zoom in effect */
   }
 
+  /* ///////////////////corporate_event/////////////////////// */
 
+  .image1{
+    width: 100%;
+    margin-top: 50px
+  }
+  .image-title{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+  }
+  .event_page{
+    margin-top: 5%;
+    margin-left: 38%;
+  }
+
+
+  /* ///////////////////////////////retail_chain////////////////////// */
+
+  .chain_btn1{
+    margin-top: -5px;
+  }
+
+  .chain_btn2{
+    margin-top: -40px;
+    margin-bottom: 20px;
+  }
+
+.brand_text{
+   margin-left: -90%;
+}

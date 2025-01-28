@@ -17,7 +17,7 @@ export default function Portfolio() {
         <div className="mask" style={{ backgroundColor: 'rgba(0, 0, 0, 0.8)' }}>
             <div className="d-flex justify-content-left align-items-center h-100">
                 <p className="text mb-0 our_client">Portfolio</p><br/>
-                <p className="mini_content">Thousands of clients across hundreds of industries. Take a look for yourself.</p>
+                <p className="mini_content2">Thousands of clients across hundreds of industries. Take a look for yourself.</p>
             </div>
         </div>
     </div>
@@ -57,7 +57,7 @@ export default function Portfolio() {
                          techniques to produce a wide range of materials. Designing and producing signs, banners, and displays for
                           both indoor and outdoor use to promote businesses and events.
                         </MDBCardText>
-                        <MDBBtn color="primary">Read More</MDBBtn>
+                        <MDBBtn color="primary"><Link to="/retail_chain">Read More</Link></MDBBtn>
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>
@@ -74,7 +74,7 @@ export default function Portfolio() {
                           competitor analysis, proposal creation, advertisement design, permitting, production, quality control,
                            installation, maintenance, and post-campaign analysis.
                         </MDBCardText>
-                        <MDBBtn color="primary"> <Link to="/outdoorMedia">Read More</Link></MDBBtn>
+                        <MDBBtn color="primary"> <Link to="/outdoor_media">Read More</Link></MDBBtn>
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>

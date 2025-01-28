@@ -179,7 +179,7 @@ export default function Home() {
 
               <MDBRow className="mt-4">
                 <MDBCol>
-                  <MDBBtn outline color="info" href="#">
+                  <MDBBtn outline color="info" href="/sakar_tex_catalog.pdf" target="_blank">
                     More About Us
                   </MDBBtn>
                 </MDBCol>
