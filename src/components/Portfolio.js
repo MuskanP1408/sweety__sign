@@ -17,7 +17,7 @@ export default function Portfolio() {
         <div className="mask" style={{ backgroundColor: 'rgba(0, 0, 0, 0.8)' }}>
             <div className="d-flex justify-content-left align-items-center h-100">
                 <p className="text mb-0 our_client">Portfolio</p><br/>
-                <p className="mini_content2">Thousands of clients across hundreds of industries. Take a look for yourself.</p>
+                <p className="mini_content">Thousands of clients across hundreds of industries. Take a look for yourself.</p>
             </div>
         </div>
     </div>

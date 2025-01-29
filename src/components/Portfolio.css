@@ -75,14 +75,28 @@
 
     .mini_content {
         font-size: 14px;
-        margin-left:5% ;
-        text-align: center;
-        margin-top: -0.1%;
+        margin-left:-2% ;
+        margin-top: -5%;
     }
 
     .our_client{
         margin-top: 70%;
+        margin-left: 95%;
     }
+
+    .exhibition_card{
+        width: 145%;
+        margin-left: -40%;
+    }
+
+    .event_con1{
+        margin-top: 5%;
+        font-size: 12px;
+    }
+
+   
+
+
 }
 
 
@@ -148,7 +162,7 @@
     
 }
 .title1{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
 }
 .back_button{
@@ -199,4 +213,36 @@
 
 .brand_text{
    margin-left: -90%;
+}
+
+
+@media (max-width: 768px) {
+    .title1{
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .read_btn{
+        font-size: 12px;
+        margin-top: -10%;
+    }
+
+    .event_card{
+        height: auto;
+    }
+
+    .back_button{
+        font-size: 12px;
+    }
+
+    .our_client{
+        font-size: 25px;
+    }
+
+    .event_con_cop{
+        margin-left: 2%;
+        margin-top: -1%;
+    }
+
+
 }

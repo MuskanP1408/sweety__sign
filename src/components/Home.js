@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './Homecss.css'; // Ensure your CSS for bubbles and other styles is correctly linked
 import {
   MDBRow,
@@ -242,8 +243,8 @@ export default function Home() {
           <MDBCardText className='event_text'>
           We plan and execute unforgettable events that leave a lasting impression.
           </MDBCardText>
-          <MDBBtn outline color="info" href="#">
-                Read More
+          <MDBBtn outline color="info" href="#"><Link to="/event">
+                Read More</Link>
                 </MDBBtn>
         </MDBCardBody>
       </MDBCard>
@@ -262,8 +263,8 @@ export default function Home() {
           related to the creation, production, and customization of 
           printed materials to enhance a client’s brand image.
           </MDBCardText>
-          <MDBBtn outline color="info" href="#">
-                Read More
+          <MDBBtn outline color="info" href="#"><Link to="/retail_chain">
+                Read More</Link>
                 </MDBBtn>
         </MDBCardBody>
       </MDBCard></MDBCol>
@@ -278,8 +279,8 @@ export default function Home() {
           Creatofox Outdoor is your one-stop shop for outdoor advertising,
            including billboards, newspaper ads, and cinema/TV/radio commercials.
           </MDBCardText>
-          <MDBBtn outline color="info" href="#">
-                Read More
+          <MDBBtn outline color="info" href="#"><Link to="/outdoor_media">
+                Read More</Link>
                 </MDBBtn>
         </MDBCardBody>
       </MDBCard></MDBCol>

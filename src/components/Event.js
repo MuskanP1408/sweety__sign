@@ -20,7 +20,7 @@ export default function Event() {
                 <p className="text mb-0 our_client">
                     <MDBIcon icon="hands-helping" size="1x"/>
                     Event Managment</p>
-                <p className="event_con">An event management company handling Exhibitions,
+                <p className="mini_content event_con1">An event management company handling Exhibitions,
                      corporate events (product launches, conferences), social events (weddings, birthdays), 
                      festival decorations, BTL activities, and more. They excel in understanding your goals,
                       developing a detailed event plan, venue selection, vendor management, logistics coordination,
@@ -35,9 +35,9 @@ export default function Event() {
             <MDBCol md="6" className="mb-4 d-flex justify-content-center">
                 <MDBCard className="custom-card event_card">
                     <MDBCardBody>
-                        <MDBCardTitle className="title1">  <MDBIcon fas icon="briefcase" size="2x" />
+                        <MDBCardTitle className="title1 name">  <MDBIcon fas icon="briefcase" size="2x" />
                         Corporate Event Management</MDBCardTitle><br/>
-                        <MDBBtn color="primary"><Link to="/corporate_event">Read More</Link></MDBBtn>
+                        <MDBBtn color="primary" className="read_btn"><Link to="/corporate_event">Read More</Link></MDBBtn>
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>
@@ -48,7 +48,7 @@ export default function Event() {
                     <MDBCardBody>
                         <MDBCardTitle className="title1"> <MDBIcon fas icon="users" size="2x" />
                             Social Event Management</MDBCardTitle><br/><br/>
-                        <MDBBtn color="primary"><Link to="/social_event">Read More</Link></MDBBtn>
+                        <MDBBtn color="primary"  className="read_btn"><Link to="/social_event">Read More</Link></MDBBtn>
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol>

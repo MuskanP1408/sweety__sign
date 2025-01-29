@@ -36,7 +36,7 @@ export default function Corporate_event() {
                <MDBCol md="4" className="mb-4 d-flex justify-content-center">
                    <div className="image-container">
                        <img src={dealer} alt="Dealer Meet" className="image1"/>
-                       <p className="image-title">Dealer Meet</p>
+                       <p className="image-title">Confrence Event ( IllD )</p>
                    </div>
                </MDBCol>
    
@@ -44,7 +44,7 @@ export default function Corporate_event() {
                <MDBCol md="4" className="mb-4 d-flex justify-content-center">
                    <div className="image-container">
                        <img src={product} alt="Product Launch Event" className="image1"/>
-                       <p className="image-title">Product Launch Event</p>
+                       <p className="image-title">Product launch ( GALA Dinner)</p>
                    </div>
                </MDBCol>
    
@@ -62,7 +62,8 @@ export default function Corporate_event() {
                <MDBCol md="12" className="mb-4 d-flex justify-content-center">
                    <div className="image-container">
                        <img src={annual} alt="Company Annual Event" className="image1"/>
-                       <p className="image-title">Company Annual Event</p>
+                       <p className="image-title">Annual event 
+                       DM University</p>
                    </div>
                </MDBCol>
            </MDBRow>
