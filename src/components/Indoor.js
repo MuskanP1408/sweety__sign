@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
 
 import background from './images/back.jpg';
-import baby_shower from './images/baby_shower.jpg';
-import Birthday_Decor from './images/Birthday_Decor.jpg';
-import Engagement from './images/Engagement.jpg';
-import Wedding_decor from './images/Wedding_decor.jpg';
+import baby_shower from './images/indoor1.jpg';
+import paint from './images/vinly_paint.png';
+import clip from './images/clip_on.png';
+import standy from './images/standy.png';
 
 import './Portfolio.css';  
 
@@ -18,7 +18,7 @@ export default function Indoor() {
         <img src={background} className="background" alt="Portfolio Background" />
         <div className="mask" style={{ backgroundColor: 'rgba(0, 0, 0, 0.8)' }}>
             <div className="d-flex justify-content-left align-items-center h-100">
-                <p className="text mb-0 our_client">
+                <p className="text mb-0 our_client retail">
                    <MDBIcon fas icon="home" size="1x" />
                    Indoor Branding</p>
                 <p className="event_con_cop brand_text">Tailored Solutions for Your Brand. SAGC provides 
@@ -36,23 +36,23 @@ export default function Indoor() {
             <MDBCol md="4" className="mb-4 d-flex justify-content-center">
                 <div className="image-container">
                     <img src={baby_shower} alt="Dealer Meet" className="image1"/>
-                    <p className="image-title">Baby Shower</p>
+                    <p className="image-title"> INSHOP BRANDING</p>
                 </div>
             </MDBCol>
 
             {/* Image 2 */}
             <MDBCol md="4" className="mb-4 d-flex justify-content-center">
                 <div className="image-container">
-                    <img src={Birthday_Decor} alt="Product Launch Event" className="image1"/>
-                    <p className="image-title">Birthday Decor</p>
+                    <img src={paint} alt="Product Launch Event" className="image1"/>
+                    <p className="image-title"> VINYL PRINTING</p>
                 </div>
             </MDBCol>
 
             {/* Image 3 */}
             <MDBCol md="4" className="mb-4 d-flex justify-content-center">
                 <div className="image-container">
-                    <img src={Engagement} alt="Vision Launch Event" className="image1"/>
-                    <p className="image-title">Engagement</p>
+                    <img src={clip} alt="Vision Launch Event" className="image1"/>
+                    <p className="image-title">CLIP-ON</p>
                 </div>
             </MDBCol>
         </MDBRow>
@@ -61,8 +61,8 @@ export default function Indoor() {
         <MDBRow className="card_row">
             <MDBCol md="12" className="mb-4 d-flex justify-content-center">
                 <div className="image-container">
-                    <img src={Wedding_decor} alt="Company Annual Event" className="image1"/>
-                    <p className="image-title">Wedding</p>
+                    <img src={standy} alt="Company Annual Event" className="image1"/>
+                    <p className="image-title">STANDY ROLLUP STANDY</p>
                 </div>
             </MDBCol>
         </MDBRow>

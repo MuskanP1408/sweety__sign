@@ -9,8 +9,11 @@ import background from './images/back.jpg';
 import dealer from './images/dealer_meet.jpg';
 import product from './images/product_launch.jpg';
 import vision from './images/vision.jpg';
-import annual from './images/company_anuual.jpg'
-
+import annual from './images/company_anuual.jpg';
+import Conference from './images/Conference_Architect_Association.jpg';
+import Annul_event from './images/Annul_event_(ITC).jpg';
+import Product_launch from './images/Product_launch_Event_( Hero_moto_Corp).jpg'
+import Airtel from './images/Product_launch_Event_( Airtel ).jpg'
 
 import './Portfolio.css';  
 
@@ -56,6 +59,38 @@ export default function Corporate_event() {
                    </div>
                </MDBCol>
            </MDBRow>
+
+
+{/* //////////////////////////////////////////////////////////////////////// */}
+
+<MDBRow className="card_row">
+               {/* Image 1 */}
+               <MDBCol md="4" className="mb-4 d-flex justify-content-center">
+                   <div className="image-container">
+                       <img src={Conference} alt="Dealer Meet" className="image1"/>
+                       <p className="image-title">Conference Architect Association</p>
+                   </div>
+               </MDBCol>
+   
+               {/* Image 2 */}
+               <MDBCol md="4" className="mb-4 d-flex justify-content-center">
+                   <div className="image-container">
+                       <img src={Annul_event} alt="Product Launch Event" className="image1"/>
+                       <p className="image-title">Annul event (ITC)</p>
+                   </div>
+               </MDBCol>
+   
+               {/* Image 3 */}
+               <MDBCol md="4" className="mb-4 d-flex justify-content-center">
+                   <div className="image-container">
+                       <img src={Product_launch} alt="Vision Launch Event" className="image1"/>
+                       <p className="image-title">Product launch Event ( Hero_moto_Corp)</p>
+                   </div>
+               </MDBCol>
+           </MDBRow>
+
+{/* /////////////////////////////////////////////////////////////////////////////// */}
+
    
            {/* Second Row with Single Image */}
            <MDBRow className="card_row">

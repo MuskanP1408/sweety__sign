@@ -1,7 +1,8 @@
 .mini_content2{
     color: white;
-    margin-top: 15%;
+    margin-top: 20%;
     margin-left: -42%;
+    width: 300%;
 }
 
 
@@ -60,5 +61,14 @@
     animation: flyInFromLeft 1s forwards;
   }
 
+
+  @media (max-width: 768px) {
+    .mini_content2{
+      margin-left: 45%;
+      font-size: 15px;
+      width: 100%;
+     
+    }
+  }
  
   

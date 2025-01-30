@@ -20,7 +20,7 @@ export default function Event() {
                 <p className="text mb-0 our_client">
                     <MDBIcon icon="hands-helping" size="1x"/>
                     Event Managment</p>
-                <p className="mini_content event_con1">An event management company handling Exhibitions,
+                <p className="mini_content event_con">An event management company handling Exhibitions,
                      corporate events (product launches, conferences), social events (weddings, birthdays), 
                      festival decorations, BTL activities, and more. They excel in understanding your goals,
                       developing a detailed event plan, venue selection, vendor management, logistics coordination,

@@ -17,7 +17,7 @@ export default function Retail_chain() {
         <img src={background} className="background" alt="Portfolio Background" />
         <div className="mask" style={{ backgroundColor: 'rgba(0, 0, 0, 0.8)' }}>
             <div className="d-flex justify-content-left align-items-center h-100">
-                <p className="text mb-0 our_client">
+                <p className="text mb-0 our_client retail">
                     <MDBIcon icon="store" size="1x"/>
                     Retails Chain Branding</p>
                 <p className="event_con">Tailored Solutions for Your Brand. SAGC provides services

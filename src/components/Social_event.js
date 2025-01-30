@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon } from 'mdb-react-ui-kit';
 
 import background from './images/back.jpg';
-import baby_shower from './images/baby_shower.jpg';
-import Birthday_Decor from './images/Birthday_Decor.jpg';
-import Engagement from './images/Engagement.jpg';
-import Wedding_decor from './images/Wedding_decor.jpg';
+import baby_shower from './images/event6.jpg';
+import Birthday_Decor from './images/event2.jpg';
+import Engagement from './images/event9.jpg';
+import Wedding_decor from './images/event5.jpg';
 
 import './Portfolio.css';  
 
@@ -32,7 +32,7 @@ export default function Social_event() {
             <MDBCol md="4" className="mb-4 d-flex justify-content-center">
                 <div className="image-container">
                     <img src={baby_shower} alt="Dealer Meet" className="image1"/>
-                    <p className="image-title">Baby Shower</p>
+                    <p className="image-title">Wedding</p>
                 </div>
             </MDBCol>
 
@@ -58,7 +58,7 @@ export default function Social_event() {
             <MDBCol md="12" className="mb-4 d-flex justify-content-center">
                 <div className="image-container">
                     <img src={Wedding_decor} alt="Company Annual Event" className="image1"/>
-                    <p className="image-title">Wedding</p>
+                    <p className="image-title">Haldi Decor</p>
                 </div>
             </MDBCol>
         </MDBRow>

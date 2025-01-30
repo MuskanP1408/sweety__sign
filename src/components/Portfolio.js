@@ -95,7 +95,7 @@ export default function Portfolio() {
                          We have a proven track record of delivering mega expos that 
                          achieve outstanding results.
                         </MDBCardText>
-                        <MDBBtn color="primary">Read More</MDBBtn>
+                        <MDBBtn color="primary"><Link to='/exhibitions'>Read More</Link></MDBBtn>
                     </MDBCardBody>
                 </MDBCard>
             </MDBCol></MDBRow>

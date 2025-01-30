@@ -16,6 +16,7 @@ import Social_event from './components/Social_event';
 import Retail_chain from './components/Retail_chain';
 import Indoor from './components/Indoor';
 import Outdoor from './components/Outdoor';
+import Exhibitions from './components/Exhibitions';
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
         <Route path="/retail_chain" element={<Retail_chain />} />
         <Route path='/indoor' element={<Indoor/>} />
         <Route path='/outdoor' element={<Outdoor/>}/>
+        <Route path='/exhibitions' element={<Exhibitions/>}/>
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer/>

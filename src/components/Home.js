@@ -227,8 +227,8 @@ export default function Home() {
            We have a proven track record of delivering 
            mega expos that achieve outstanding results.
           </MDBCardText>
-           <MDBBtn outline color="info" href="#">
-                Read More
+           <MDBBtn outline color="info"><Link to='/exhibitions'>
+                Read More</Link>
                 </MDBBtn>
         </MDBCardBody>
       </MDBCard>
