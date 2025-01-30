@@ -39,7 +39,7 @@ export default function Exhibitions() {
                 </div>
             </MDBCol>
         </MDBRow>
-
+         <br/> <br/><br/>
         <MDBBtn outline color="info" className="back_button"> <Link to="/portfolio">
                          Back To Portfolio</Link></MDBBtn>
     </MDBContainer>
