@@ -40,7 +40,7 @@ function CounterCard({ title, initialValue, limit }) {
       <MDBCard className="text-center mb-4 custom-card" style={{ backgroundColor: 'rgba(64, 181, 181, 0.5)', color: 'white' }}>
         <MDBCardBody className="custom-card-body">
           <MDBCardText>
-            <h3>{count}</h3>
+            <h3>{count} +</h3>
           </MDBCardText>
           <MDBCardTitle>{title}</MDBCardTitle>
         </MDBCardBody>
@@ -82,7 +82,7 @@ export default function Home() {
       {/* Background Image */}
       <div className="bg-image">
         <img src={image} className="w-100" alt="Sample" />
-        <div className="mask" style={{ backgroundColor: 'rgba(0, 0, 0, 0.8)' }}>
+        <div className="mask" style={{ backgroundColor: 'rgba(55, 63, 63, 0.8)' }}>
           <div className="d-flex justify-content-center align-items-center h-100">
           <MDBContainer>
   <MDBRow className='logo_name'>
@@ -113,7 +113,7 @@ export default function Home() {
 
     {/* Right Column (Text and Button) */}
     <MDBCol sm="12" md="4" className="text-center text-md-left col_2">
-      <h4>SWEETY_SIGN ONE STOP BRANDING SOLUTION</h4>
+      <h4>SWEETY SIGN ONE STOP BRANDING SOLUTION</h4>
       <p1>MANAGED BY SAKAR TEX MECH INDUSTRIES</p1>
       
       {/* Button */}
@@ -132,13 +132,13 @@ export default function Home() {
       <MDBContainer className='cardSection' fluid >
         <MDBRow>
           <MDBCol sm="12" md="4">
-            <CounterCard title="Years Of Experience" initialValue={0} limit={5} />
+            <CounterCard title="Years Of Experience" initialValue={0} limit={15} />
           </MDBCol>
           <MDBCol sm="12" md="4">
-            <CounterCard title="Project Completed" initialValue={50} limit={150} />
+            <CounterCard title="Project Completed" initialValue={50} limit={500} />
           </MDBCol>
           <MDBCol sm="12" md="4">
-            <CounterCard title="Happy Clients" initialValue={150} limit={500} />
+            <CounterCard title="Happy Clients" initialValue={150} limit={750} />
           </MDBCol>
         </MDBRow>
       </MDBContainer>

@@ -7,6 +7,19 @@ i{
     padding-right: 10px;
 }
 
+.footer_text{
+  margin-top: -20%;
+  font-size: 12px;
+}
+
+.add_text{
+  font-size: 14px;
+}
+
+.footer_color {
+  background-color: #7E99A3 !important;
+}
+
 /* ///////////////////////////////////////////////////// */
 
 .text-reset:hover{

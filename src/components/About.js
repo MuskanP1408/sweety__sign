@@ -33,7 +33,7 @@ function CounterCard({ title, initialValue, limit }) {
       <MDBCard className="text-center mb-4 custom-card" style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)', color: 'white' }}>
         <MDBCardBody className="custom-card-body">
           <MDBCardText>
-            <h3>{count}</h3>
+            <h3>{count} +</h3>
           </MDBCardText>
           <MDBCardTitle>{title}</MDBCardTitle>
         </MDBCardBody>
@@ -188,20 +188,20 @@ keeping our legacy of excellence alive.</h2>
     <MDBContainer className='cardSection mt-5'>
               <MDBRow>
                 <MDBCol sm="12" md="4">
-                  <CounterCard title="Years Of Experience" initialValue={0} limit={5} />
+                  <CounterCard title="Years Of Experience" initialValue={0} limit={15} />
                 </MDBCol>
                 <MDBCol sm="12" md="4">
-                  <CounterCard title="Project Completed" initialValue={50} limit={150} />
+                  <CounterCard title="Project Completed" initialValue={50} limit={500} />
                 </MDBCol>
                 <MDBCol sm="12" md="4">
-                  <CounterCard title="Happy Clients" initialValue={150} limit={500} />
+                  <CounterCard title="Happy Clients" initialValue={150} limit={750} />
                 </MDBCol>
               </MDBRow>
             </MDBContainer >
 
-            <MDBContainer className="img d-flex justify-content-center align-items-center">
-              <img src={image2} className="brading_smartart w-45" alt="Image" />
-            </MDBContainer>
+            {/* <MDBContainer className="img d-flex justify-content-center align-items-center">
+              <img src={image2} className="brading_smartart w-35" alt="Image" />
+            </MDBContainer> */}
 
             <MDBContainer className="d-flex justify-content-center align-items-center">
             

@@ -2,14 +2,16 @@ import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import './Footer.css';
+import { Link } from 'react-router-dom';
+import S_logo_1 from './images/S_logo_1.png';
 
 
 export default function Footer() {
   return (
-    <MDBFooter bgColor='dark' className='text-center text-lg-start text-muted'>
+    <MDBFooter className='text-center text-lg-start text-muted footer_color'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
-          <span>Get connected with us on social networks:</span>
+          <span className="navbar-link">Get connected with us on social networks:</span>
         </div>
 
         <div>
@@ -38,78 +40,90 @@ export default function Footer() {
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
             <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>
-              <i class="fa-solid fa-gem footer_icon"></i>
-                Sweety_Sign
+              <h6 className='text-uppercase fw-bold mb-4 navbar-link'>
+              <img
+                          src={S_logo_1}
+                          height='150'
+                          alt='Logo'
+                          loading='lazy'
+                        />
+                
               </h6>
-              <p>
-              MANAGED BY SAKAR TEX MECH INDUSTRIES
+              <p className="navbar-link footer_text">
+              Sweety Sign™️ is a trademark of Sakar Tex Mech Industries. We create bold, 
+              memorable brand identities through strategic design. Let’s build something unforgettable.
               </p>
             </MDBCol>
 
             <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Quick Links</h6>
+              <h6 className='text-uppercase fw-bold mb-4 navbar-link'>Quick Links</h6>
               <p>
-                <a href='#!' className='text-reset'>
+              <Link className="navbar-link" to="/">
                   Home
-                </a>
+                </Link>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
-                  About Us
-                </a>
+              <Link className="navbar-link" to="/about">
+                  About Us</Link>
+                
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+              <Link className="navbar-link" to="/clients">
                   Clients
-                </a>
+                </Link>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+              <Link className="navbar-link" to="/portfolio">
                   Portfolio
-                </a>
+                </Link>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+              <Link className="navbar-link" to="/contact">
                 Contact Us
-                </a>
+                </Link>
               </p>
             </MDBCol>
 
             <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Services</h6>
+              <h6 className='text-uppercase fw-bold mb-4 navbar-link'>Services</h6>
               <p>
-                <a href='#!' className='text-reset'>
+              <Link className="navbar-link" to="/event">
                 Event Management
-                </a>
+                </Link>
               </p>
              
               <p>
-                <a href='#!' className='text-reset'>
+              <Link className="navbar-link" to="/retail_chain">
                 Retail Chain Branding
-                </a>
+                </Link>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+              <Link className="navbar-link" to="/outdoor_media">
                 Outdoor Media Planing
-                </a>
+                </Link>
               </p>
+
+              <p>
+              <Link className="navbar-link" to="/exhibitions">
+              Exhibitions
+                </Link>
+              </p>
+
             </MDBCol>
 
             <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
-              <p>
+              <h6 className='text-uppercase fw-bold mb-4 navbar-link'>Contact</h6>
+              <p className="navbar-link add_text">
               <i class="fa-solid fa-house footer_icon"></i>
-              BRANCHES: AHMEDABAD - DUBAI
-              BL-1,2,& 9, Samudra Complex,Near, Swastik Cross Rd,Behind
-              Jain Derasar,Opp.Girish Cold Drinks,Vasant Vihar,Navrangpura, 
-              Ahmedabad, Gujarat 380009
+              BRANCHES: AHMEDABAD - Dubai <br/>
+              <b> Correspondence Address:</b> 905, Samudra Annexe, B/H Jain Derasar,
+               Opp.Girish Cold Drinks, Vasant Vihar, Navrangpura, Ahmedabad, Gujarat - 380009
               </p>
-              <p>
+              <p className="navbar-link">
               <i class="fa-solid fa-envelope footer_icon"></i>
                 sakartech95@gmail.com
               </p>
-              <p>
+              <p className="navbar-link">
               <i class="fa-solid fa-phone footer_icon"></i> + 85111O7575
               </p>
               {/* <p>
@@ -120,8 +134,8 @@ export default function Footer() {
         </MDBContainer>
       </section>
 
-      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2025 Copyright: Sweety_Sign
+      <div className='text-center p-4 navbar-link' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+        © 2025 Copyright: Sakar Tex Mech Industries
         
       </div>
     </MDBFooter>

@@ -28,7 +28,7 @@ export default function () {
   };
 
   return (
-    <MDBNavbar expand='lg' dark bgColor='dark' fixed='top'>
+    <MDBNavbar expand='lg' className='nav_color' fixed='top'>
       <MDBContainer fluid>
         {/* Logo Section */}
         <MDBNavbarBrand href='#'>
