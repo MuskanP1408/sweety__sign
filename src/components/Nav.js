@@ -31,7 +31,7 @@ export default function () {
     <MDBNavbar expand='lg' className='nav_color' fixed='top'>
       <MDBContainer fluid>
         {/* Logo Section */}
-        <MDBNavbarBrand href='#'>
+        <MDBNavbarBrand href='/'>
           <img
             src={S_logo_1}
             height='50'

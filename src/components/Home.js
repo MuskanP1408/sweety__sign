@@ -113,7 +113,8 @@ export default function Home() {
 
     {/* Right Column (Text and Button) */}
     <MDBCol sm="12" md="4" className="text-center text-md-left col_2">
-      <h4>SWEETY SIGN ONE STOP BRANDING SOLUTION</h4>
+      <h4 className='sweety_para'>Sweety Sign™️ is a trademark of Sakar Tex Mech Industries. We create bold, 
+      memorable brand identities through strategic design. Let’s build something unforgettable.</h4>
       <p1>MANAGED BY SAKAR TEX MECH INDUSTRIES</p1>
       
       {/* Button */}

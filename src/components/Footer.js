@@ -15,24 +15,22 @@ export default function Footer() {
         </div>
 
         <div>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://www.instagram.com/sakartex/?igsh=MW9kaWJ5N2lnaWlxbg%3D%3D#' className='me-4 text-reset'>
           <i className="fab fa-facebook-f footer_icon"></i>
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://www.instagram.com/sakartex/?igsh=MW9kaWJ5N2lnaWlxbg%3D%3D#' className='me-4 text-reset'>
           <i class="fa-brands fa-twitter footer_icon"></i>
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='mailto:sakartech95@gmail.com' className='me-4 text-reset'>
           <i class="fa-brands fa-google footer_icon"></i>
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://www.instagram.com/sakartex/?igsh=MW9kaWJ5N2lnaWlxbg%3D%3D#' className='me-4 text-reset'>
           <i class="fa-brands fa-instagram footer_icon"></i>
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://www.instagram.com/sakartex/?igsh=MW9kaWJ5N2lnaWlxbg%3D%3D#' className='me-4 text-reset'>
           <i class="fa-brands fa-linkedin footer_icon"></i>
           </a>
-          <a href='' className='me-4 text-reset'>
-          <i class="fa-brands fa-github footer_icon"></i>
-          </a>
+         
         </div>
       </section>
 
@@ -135,7 +133,7 @@ export default function Footer() {
       </section>
 
       <div className='text-center p-4 navbar-link' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2025 Copyright: Sakar Tex Mech Industries
+        © 2025 Copyright: Sakar Tex Mech Industries. All Rights Reserved.
         
       </div>
     </MDBFooter>
